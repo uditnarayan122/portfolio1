@@ -1834,6 +1834,18 @@ section {
     
 }
 @media only screen and (max-width: 768px) {
+    #qualifications-list div:hover {
+        transform: scale(1);
+    }
+    #skills-list div:hover {
+        transform: scale(1);
+    }
+    #projects-list div:hover {
+        transform: scale(1);
+    }
+    #certifications-list div:hover {
+        transform: scale(1);
+    }
 
     #menu-icon {
         display: block;
