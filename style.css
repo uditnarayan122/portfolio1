@@ -731,1118 +731,1396 @@ section {
 }
 
 /* Media Queries for Responsiveness */
-@media only screen and (min-width: 1440px){
-    #profile-img{
+@media only screen and (min-width: 1440px) {
+    #profile-img {
         width: 500px;
         height: auto;
     }
-    #about-img img{
+
+    #about-img img {
         width: 500px;
         height: auto;
         margin: 0;
     }
-    #home-content{
+
+    #home-content {
         max-width: 519px;
     }
-    #home{
+
+    #home {
         flex-direction: row-reverse;
     }
-    
-    #header{
+
+    #header {
         padding: 4px;
     }
-    #logo{
+
+    #logo {
         font-size: 1.8rem;
     }
-    #menu-icon{
+
+    #menu-icon {
         font-size: 2.5rem;
     }
-    #navbar a{
+
+    #navbar a {
         font-size: 1.3rem;
     }
-    #home{
+
+    #home {
         padding-top: 2rem;
     }
-    #home-content{
+
+    #home-content {
         margin: auto;
     }
-    #home-content h3{
+
+    #home-content h3 {
         font-size: 2rem;
     }
-    #home-content h3:nth-of-type(2){
+
+    #home-content h3:nth-of-type(2) {
         margin-bottom: 1rem;
     }
-    #home-content h1{
+
+    #home-content h1 {
         font-size: 2.5rem;
     }
-    #home-content p{
+
+    #home-content p {
         font-size: 1rem;
     }
-    
-    #home-icons a{
+
+    #home-icons a {
         width: 35px;
         height: 35px;
         margin: 0.5rem;
         font-size: 20px;
     }
-    .btn-box{
+
+    .btn-box {
         margin-top: 0.5rem;
         padding: 9px 26px;
         font-size: 12px;
     }
-    #about{
-        
+
+    #about {
+
         margin-top: 2rem;
     }
-    #about-img{
+
+    #about-img {
         text-align: center;
     }
-    #about-text p{
+
+    #about-text p {
         text-align: justify;
         margin: 2rem;
         padding: 0;
         font-size: 1rem;
     }
-    #about-text h2{
+
+    #about-text h2 {
         text-align: center;
         font-size: 2.3rem;
         padding: 0;
     }
-    #qualifications h1{
+
+    #qualifications h1 {
         padding: 1.3rem;
         margin-top: 3rem;
         font-size: 2.4rem;
     }
-    #qualifications-list{
+
+    #qualifications-list {
         margin: 0 2rem;
         margin-top: 1rem;
     }
-    #qualifications-list div{
+
+    #qualifications-list div {
         margin: 10px;
         padding: 1.8rem;
     }
-    #qualifications-list div h2{
+
+    #qualifications-list div h2 {
         font-size: 1.7rem;
     }
-    #qualifications-list div h4{
+
+    #qualifications-list div h4 {
         font-size: 1rem;
     }
-    #qualifications-list div p{
+
+    #qualifications-list div p {
         font-size: 1rem;
     }
-    #skills h1{
+
+    #skills h1 {
         margin-top: 3.2rem;
         font-size: 2.4rem;
     }
-    #skills-list{
+
+    #skills-list {
         margin: 0 2rem;
         margin-top: 1rem;
     }
-    #skills-list div{
+
+    #skills-list div {
         margin: 10px;
         padding: 1.8rem;
     }
-    #skills-list div h2{
+
+    #skills-list div h2 {
         font-size: 1.7rem;
     }
-    
-    #skills-list div p{
+
+    #skills-list div p {
         font-size: 1rem;
     }
-    #skills-list div a{
+
+    #skills-list div a {
         padding: 0.4rem;
     }
-    #skills-list i{
+
+    #skills-list i {
         font-size: 4rem;
     }
-    .learn-more{
+
+    .learn-more {
         padding: 2px 17px;
     }
-    #tech h1{
+
+    #tech h1 {
         margin-top: 3rem;
         font-size: 2.4rem;
     }
-    #tech-list{
+
+    #tech-list {
         margin: 0 2rem;
     }
-    #tech-list div{
+
+    #tech-list div {
         margin-top: 1.5rem;
         padding: 1.8rem;
         margin: 10px;
     }
-    #tech-list div i{
+
+    #tech-list div i {
         font-size: 4rem;
     }
-    #projects h1{
+
+    #projects h1 {
         margin-top: 3rem;
         font-size: 2.4rem;
     }
-    #projects-list{
+
+    #projects-list {
         margin: 0 2rem;
         margin-top: 1rem;
     }
-    #projects-list div{
+
+    #projects-list div {
         margin: 10px;
         padding: 1.8rem;
     }
-    #projects-list div h2{
+
+    #projects-list div h2 {
         font-size: 1.7rem;
     }
-    
-    #projects-list div p{
+
+    #projects-list div p {
         font-size: 1rem;
     }
-    #projects-list .learn-more{
+
+    #projects-list .learn-more {
         padding: 5px;
     }
-    #certifications h1{
+
+    #certifications h1 {
         margin-top: 3rem;
         font-size: 2.4rem;
     }
-    #certifications-list{
+
+    #certifications-list {
         margin: 0 2rem;
         margin-top: 1rem;
     }
-    #certifications-list div{
+
+    #certifications-list div {
         margin: 10px;
         padding: 1.8rem;
     }
-    #certifications-list div h2{
+
+    #certifications-list div h2 {
         font-size: 1.7rem;
     }
-    #certifications-list i{
+
+    #certifications-list i {
         font-size: 4.2rem;
     }
-    
-    #certifications-list div p{
+
+    #certifications-list div p {
         font-size: 1rem;
     }
-    #certifications-list .learn-more{
+
+    #certifications-list .learn-more {
         padding: 6px;
     }
-    #contact h2{
+
+    #contact h2 {
         margin-top: 3rem;
         margin-bottom: 1rem;
         font-size: 2.6rem;
     }
-    #form{
+
+    #form {
         margin-bottom: 2rem;
         gap: 0.8rem;
     }
-    #form input{
+
+    #form input {
         width: 50%;
     }
-    #form textarea{
+
+    #form textarea {
         width: 50%;
     }
-    ::placeholder{
+
+    ::placeholder {
         font-size: 0.8rem;
     }
-    #form #submit{
+
+    #form #submit {
         font-size: 1rem;
         padding: 5px;
     }
-    #footer{
+
+    #footer {
         padding: 0.5rem 2%;
     }
-    #footer p{
+
+    #footer p {
         font-size: 0.9rem;
     }
-    #go-to-top i{
+
+    #go-to-top i {
         font-size: 15px;
     }
 }
-@media only screen and (min-width: 1274px) and (max-width:1440px){
-    
-    #profile-img{
+
+@media only screen and (min-width: 1274px) and (max-width:1440px) {
+
+    #profile-img {
         width: 500px;
         height: auto;
     }
-    #about-img img{
+
+    #about-img img {
         width: 500px;
         height: auto;
         margin: 0;
     }
-    #home-content{
+
+    #home-content {
         max-width: 519px;
     }
-    #home{
+
+    #home {
         flex-direction: row-reverse;
     }
-    
-    #header{
+
+    #header {
         padding: 4px;
     }
-    #logo{
+
+    #logo {
         font-size: 1.8rem;
     }
-    #menu-icon{
+
+    #menu-icon {
         font-size: 2.5rem;
     }
-    #navbar a{
+
+    #navbar a {
         font-size: 1.3rem;
     }
-    #home{
+
+    #home {
         padding-top: 2rem;
     }
-    #home-content{
+
+    #home-content {
         margin: auto;
     }
-    #home-content h3{
+
+    #home-content h3 {
         font-size: 2rem;
     }
-    #home-content h3:nth-of-type(2){
+
+    #home-content h3:nth-of-type(2) {
         margin-bottom: 1rem;
     }
-    #home-content h1{
+
+    #home-content h1 {
         font-size: 2.5rem;
     }
-    #home-content p{
+
+    #home-content p {
         font-size: 1rem;
     }
-    
-    #home-icons a{
+
+    #home-icons a {
         width: 35px;
         height: 35px;
         margin: 0.5rem;
         font-size: 20px;
     }
-    .btn-box{
+
+    .btn-box {
         margin-top: 0.5rem;
         padding: 9px 26px;
         font-size: 12px;
     }
-    #about{
-        
+
+    #about {
+
         margin-top: 2rem;
     }
-    #about-img{
+
+    #about-img {
         text-align: center;
     }
-    #about-text p{
+
+    #about-text p {
         text-align: justify;
         margin: 2rem;
         padding: 0;
         font-size: 1rem;
     }
-    #about-text h2{
+
+    #about-text h2 {
         text-align: center;
         font-size: 2.3rem;
         padding: 0;
     }
-    #qualifications h1{
+
+    #qualifications h1 {
         padding: 1.3rem;
         margin-top: 3rem;
         font-size: 2.4rem;
     }
-    #qualifications-list{
+
+    #qualifications-list {
         margin: 0 2rem;
         margin-top: 1rem;
     }
-    #qualifications-list div{
+
+    #qualifications-list div {
         margin: 10px;
         padding: 1.8rem;
     }
-    #qualifications-list div h2{
+
+    #qualifications-list div h2 {
         font-size: 1.7rem;
     }
-    #qualifications-list div h4{
+
+    #qualifications-list div h4 {
         font-size: 1rem;
     }
-    #qualifications-list div p{
+
+    #qualifications-list div p {
         font-size: 1rem;
     }
-    #skills h1{
+
+    #skills h1 {
         margin-top: 3.2rem;
         font-size: 2.4rem;
     }
-    #skills-list{
+
+    #skills-list {
         margin: 0 2rem;
         margin-top: 1rem;
     }
-    #skills-list div{
+
+    #skills-list div {
         margin: 10px;
         padding: 1.8rem;
     }
-    #skills-list div h2{
+
+    #skills-list div h2 {
         font-size: 1.7rem;
     }
-    
-    #skills-list div p{
+
+    #skills-list div p {
         font-size: 1rem;
     }
-    #skills-list div a{
+
+    #skills-list div a {
         padding: 0.4rem;
     }
-    #skills-list i{
+
+    #skills-list i {
         font-size: 4rem;
     }
-    .learn-more{
+
+    .learn-more {
         padding: 2px 17px;
     }
-    #tech h1{
+
+    #tech h1 {
         margin-top: 3rem;
         font-size: 2.4rem;
     }
-    #tech-list{
+
+    #tech-list {
         margin: 0 2rem;
     }
-    #tech-list div{
+
+    #tech-list div {
         margin-top: 1.5rem;
         padding: 1.8rem;
         margin: 10px;
     }
-    #tech-list div i{
+
+    #tech-list div i {
         font-size: 4rem;
     }
-    #projects h1{
+
+    #projects h1 {
         margin-top: 3rem;
         font-size: 2.4rem;
     }
-    #projects-list{
+
+    #projects-list {
         margin: 0 2rem;
         margin-top: 1rem;
     }
-    #projects-list div{
+
+    #projects-list div {
         margin: 10px;
         padding: 1.8rem;
     }
-    #projects-list div h2{
+
+    #projects-list div h2 {
         font-size: 1.7rem;
     }
-    
-    #projects-list div p{
+
+    #projects-list div p {
         font-size: 1rem;
     }
-    #projects-list .learn-more{
+
+    #projects-list .learn-more {
         padding: 5px;
     }
-    #certifications h1{
+
+    #certifications h1 {
         margin-top: 3rem;
         font-size: 2.4rem;
     }
-    #certifications-list{
+
+    #certifications-list {
         margin: 0 2rem;
         margin-top: 1rem;
     }
-    #certifications-list div{
+
+    #certifications-list div {
         margin: 10px;
         padding: 1.8rem;
     }
-    #certifications-list div h2{
+
+    #certifications-list div h2 {
         font-size: 1.7rem;
     }
-    #certifications-list i{
+
+    #certifications-list i {
         font-size: 4.2rem;
     }
-    
-    #certifications-list div p{
+
+    #certifications-list div p {
         font-size: 1rem;
     }
-    #certifications-list .learn-more{
+
+    #certifications-list .learn-more {
         padding: 6px;
     }
-    #contact h2{
+
+    #contact h2 {
         margin-top: 3rem;
         margin-bottom: 1rem;
         font-size: 2.6rem;
     }
-    #form{
+
+    #form {
         margin-bottom: 2rem;
         gap: 0.8rem;
     }
-    #form input{
+
+    #form input {
         width: 50%;
     }
-    #form textarea{
+
+    #form textarea {
         width: 50%;
     }
-    ::placeholder{
+
+    ::placeholder {
         font-size: 0.8rem;
     }
-    #form #submit{
+
+    #form #submit {
         font-size: 1rem;
         padding: 5px;
     }
-    #footer{
+
+    #footer {
         padding: 0.5rem 2%;
     }
-    #footer p{
+
+    #footer p {
         font-size: 0.9rem;
     }
-    #go-to-top i{
+
+    #go-to-top i {
         font-size: 15px;
     }
 }
-@media only screen and (min-width: 1024px) and (max-width:1274px){
-    
-    #profile-img{
+
+@media only screen and (min-width: 1024px) and (max-width:1274px) {
+
+    #profile-img {
         width: 350px;
         height: auto;
     }
-    #about-img img{
+
+    #about-img img {
         width: 350px;
         height: auto;
         margin: 0;
     }
-    #home-content{
+
+    #home-content {
         max-width: 419px;
     }
-    #home{
+
+    #home {
         flex-direction: row-reverse;
     }
-    
-    #header{
+
+    #header {
         padding: 4px;
     }
-    #logo{
+
+    #logo {
         font-size: 1.8rem;
     }
-    #menu-icon{
+
+    #menu-icon {
         font-size: 2.5rem;
     }
-    #navbar a{
+
+    #navbar a {
         font-size: 1.3rem;
     }
-    #home{
+
+    #home {
         padding-top: 2rem;
     }
-    #home-content{
+
+    #home-content {
         margin: auto;
     }
-    #home-content h3{
+
+    #home-content h3 {
         font-size: 1.8rem;
     }
-    #home-content h3:nth-of-type(2){
+
+    #home-content h3:nth-of-type(2) {
         margin-bottom: 1rem;
     }
-    #home-content h1{
+
+    #home-content h1 {
         font-size: 2.2rem;
     }
-    #home-content p{
+
+    #home-content p {
         font-size: 1rem;
     }
-    
-    #home-icons a{
+
+    #home-icons a {
         width: 35px;
         height: 35px;
         margin: 0.5rem;
         font-size: 20px;
     }
-    .btn-box{
+
+    .btn-box {
         margin-top: 0.5rem;
         padding: 9px 26px;
         font-size: 12px;
     }
-    #about{
-        
+
+    #about {
+
         margin-top: 2rem;
     }
-    #about-img{
+
+    #about-img {
         text-align: center;
     }
-    #about-text p{
+
+    #about-text p {
         text-align: justify;
         margin: 2rem;
         padding: 0;
         font-size: 1rem;
     }
-    #about-text h2{
+
+    #about-text h2 {
         text-align: center;
         font-size: 2.3rem;
         padding: 0;
     }
-    #qualifications h1{
+
+    #qualifications h1 {
         padding: 1.3rem;
         margin-top: 3rem;
         font-size: 2.4rem;
     }
-    #qualifications-list{
+
+    #qualifications-list {
         margin: 0 2rem;
         margin-top: 1rem;
     }
-    #qualifications-list div{
+
+    #qualifications-list div {
         margin: 10px;
         padding: 1.8rem;
     }
-    #qualifications-list div h2{
+
+    #qualifications-list div h2 {
         font-size: 1.7rem;
     }
-    #qualifications-list div h4{
+
+    #qualifications-list div h4 {
         font-size: 1rem;
     }
-    #qualifications-list div p{
+
+    #qualifications-list div p {
         font-size: 1rem;
     }
-    #skills h1{
+
+    #skills h1 {
         margin-top: 3.2rem;
         font-size: 2.4rem;
     }
-    #skills-list{
+
+    #skills-list {
         margin: 0 2rem;
         margin-top: 1rem;
     }
-    #skills-list div{
+
+    #skills-list div {
         margin: 10px;
         padding: 1.8rem;
     }
-    #skills-list div h2{
+
+    #skills-list div h2 {
         font-size: 1.7rem;
     }
-    
-    #skills-list div p{
+
+    #skills-list div p {
         font-size: 1rem;
     }
-    #skills-list div a{
+
+    #skills-list div a {
         padding: 0.4rem;
     }
-    #skills-list i{
+
+    #skills-list i {
         font-size: 4rem;
     }
-    .learn-more{
+
+    .learn-more {
         padding: 2px 17px;
     }
-    #tech h1{
+
+    #tech h1 {
         margin-top: 3rem;
         font-size: 2.4rem;
     }
-    #tech-list{
+
+    #tech-list {
         margin: 0 2rem;
     }
-    #tech-list div{
+
+    #tech-list div {
         margin-top: 1.5rem;
         padding: 1.8rem;
         margin: 10px;
     }
-    #tech-list div i{
+
+    #tech-list div i {
         font-size: 4rem;
     }
-    #projects h1{
+
+    #projects h1 {
         margin-top: 3rem;
         font-size: 2.4rem;
     }
-    #projects-list{
+
+    #projects-list {
         margin: 0 2rem;
         margin-top: 1rem;
     }
-    #projects-list div{
+
+    #projects-list div {
         margin: 10px;
         padding: 1.8rem;
     }
-    #projects-list div h2{
+
+    #projects-list div h2 {
         font-size: 1.7rem;
     }
-    
-    #projects-list div p{
+
+    #projects-list div p {
         font-size: 1rem;
     }
-    #projects-list .learn-more{
+
+    #projects-list .learn-more {
         padding: 5px;
     }
-    #certifications h1{
+
+    #certifications h1 {
         margin-top: 3rem;
         font-size: 2.4rem;
     }
-    #certifications-list{
+
+    #certifications-list {
         margin: 0 2rem;
         margin-top: 1rem;
     }
-    #certifications-list div{
+
+    #certifications-list div {
         margin: 10px;
         padding: 1.8rem;
     }
-    #certifications-list div h2{
+
+    #certifications-list div h2 {
         font-size: 1.7rem;
     }
-    #certifications-list i{
+
+    #certifications-list i {
         font-size: 4.2rem;
     }
-    
-    #certifications-list div p{
+
+    #certifications-list div p {
         font-size: 1rem;
     }
-    #certifications-list .learn-more{
+
+    #certifications-list .learn-more {
         padding: 6px;
     }
-    #contact h2{
+
+    #contact h2 {
         margin-top: 3rem;
         margin-bottom: 1rem;
         font-size: 2.6rem;
     }
-    #form{
+
+    #form {
         margin-bottom: 2rem;
         gap: 0.8rem;
     }
-    #form input{
+
+    #form input {
         width: 50%;
     }
-    #form textarea{
+
+    #form textarea {
         width: 50%;
     }
-    ::placeholder{
+
+    ::placeholder {
         font-size: 0.8rem;
     }
-    #form #submit{
+
+    #form #submit {
         font-size: 1rem;
         padding: 5px;
     }
-    #footer{
+
+    #footer {
         padding: 0.5rem 2%;
     }
-    #footer p{
+
+    #footer p {
         font-size: 0.9rem;
     }
-    #go-to-top i{
+
+    #go-to-top i {
         font-size: 15px;
     }
 }
-@media only screen and (min-width: 962px) and (max-width:1024px){
-    #profile-img{
+
+@media only screen and (min-width: 962px) and (max-width:1024px) {
+    #profile-img {
         width: 250px;
         height: auto;
     }
-    #about-img img{
+
+    #about-img img {
         width: 250px;
         height: auto;
         margin: 0;
     }
-    #home-content{
+
+    #home-content {
         max-width: 519px;
     }
-    #home{
+
+    #home {
         flex-direction: row-reverse;
     }
-    
-    
-    #header{
+
+
+    #header {
         padding: 4px;
     }
-    #logo{
+
+    #logo {
         font-size: 1.8rem;
     }
-    #menu-icon{
+
+    #menu-icon {
         font-size: 2.5rem;
     }
-    #navbar a{
+
+    #navbar a {
         font-size: 1.3rem;
     }
-    #home{
+
+    #home {
         padding-top: 2rem;
     }
-    #home-content{
+
+    #home-content {
         margin: auto;
     }
-    #home-content h3{
+
+    #home-content h3 {
         font-size: 1.8rem;
     }
-    #home-content h3:nth-of-type(2){
+
+    #home-content h3:nth-of-type(2) {
         margin-bottom: 1rem;
     }
-    #home-content h1{
+
+    #home-content h1 {
         font-size: 2rem;
     }
-    #home-content p{
+
+    #home-content p {
         font-size: 1rem;
     }
-    
-    #home-icons a{
+
+    #home-icons a {
         width: 35px;
         height: 35px;
         margin: 0.5rem;
         font-size: 20px;
     }
-    .btn-box{
+
+    .btn-box {
         margin-top: 0.5rem;
         padding: 9px 26px;
         font-size: 12px;
     }
-    #about{
-        
+
+    #about {
+
         margin-top: 2rem;
     }
-    #about-img{
+
+    #about-img {
         text-align: center;
     }
-    #about-text p{
+
+    #about-text p {
         text-align: justify;
         margin: 2rem;
         padding: 0;
         font-size: 1rem;
     }
-    #about-text h2{
+
+    #about-text h2 {
         text-align: center;
         font-size: 2.3rem;
         padding: 0;
     }
-    #qualifications h1{
+
+    #qualifications h1 {
         padding: 1.3rem;
         margin-top: 3rem;
         font-size: 2.4rem;
     }
-    #qualifications-list{
+
+    #qualifications-list {
         margin: 0 2rem;
         margin-top: 1rem;
     }
-    #qualifications-list div{
+
+    #qualifications-list div {
         padding: 1.8rem;
     }
-    #qualifications-list div h2{
+
+    #qualifications-list div h2 {
         font-size: 1.7rem;
     }
-    #qualifications-list div h4{
+
+    #qualifications-list div h4 {
         font-size: 1rem;
     }
-    #qualifications-list div p{
+
+    #qualifications-list div p {
         font-size: 1rem;
     }
-    #skills h1{
+
+    #skills h1 {
         margin-top: 3.2rem;
         font-size: 2.4rem;
     }
-    #skills-list{
+
+    #skills-list {
         margin: 0 2rem;
         margin-top: 1rem;
     }
-    #skills-list div{
+
+    #skills-list div {
         padding: 1.8rem;
     }
-    #skills-list div h2{
+
+    #skills-list div h2 {
         font-size: 1.7rem;
     }
-    
-    #skills-list div p{
+
+    #skills-list div p {
         font-size: 1rem;
     }
-    #skills-list div a{
+
+    #skills-list div a {
         padding: 0.4rem;
     }
-    #skills-list i{
+
+    #skills-list i {
         font-size: 4rem;
     }
-    .learn-more{
+
+    .learn-more {
         padding: 2px 17px;
     }
-    #tech h1{
+
+    #tech h1 {
         margin-top: 3rem;
         font-size: 2.4rem;
     }
-    #tech-list{
+
+    #tech-list {
         margin: 0 2rem;
     }
-    #tech-list div{
+
+    #tech-list div {
         margin-top: 1.5rem;
         padding: 1.8rem;
     }
-    #tech-list div i{
+
+    #tech-list div i {
         font-size: 4rem;
     }
-    #projects h1{
+
+    #projects h1 {
         margin-top: 3rem;
         font-size: 2.4rem;
     }
-    #projects-list{
+
+    #projects-list {
         margin: 0 2rem;
         margin-top: 1rem;
     }
-    #projects-list div{
+
+    #projects-list div {
         padding: 1.8rem;
     }
-    #projects-list div h2{
+
+    #projects-list div h2 {
         font-size: 1.7rem;
     }
-    
-    #projects-list div p{
+
+    #projects-list div p {
         font-size: 1rem;
     }
-    #projects-list .learn-more{
+
+    #projects-list .learn-more {
         padding: 5px;
     }
-    #certifications h1{
+
+    #certifications h1 {
         margin-top: 3rem;
         font-size: 2.4rem;
     }
-    #certifications-list{
+
+    #certifications-list {
         margin: 0 2rem;
         margin-top: 1rem;
     }
-    #certifications-list div{
+
+    #certifications-list div {
         padding: 1.8rem;
     }
-    #certifications-list div h2{
+
+    #certifications-list div h2 {
         font-size: 1.7rem;
     }
-    #certifications-list i{
+
+    #certifications-list i {
         font-size: 4.2rem;
     }
-    
-    #certifications-list div p{
+
+    #certifications-list div p {
         font-size: 1rem;
     }
-    #certifications-list .learn-more{
+
+    #certifications-list .learn-more {
         padding: 6px;
     }
-    #contact h2{
+
+    #contact h2 {
         margin-top: 3rem;
         margin-bottom: 1rem;
         font-size: 2.6rem;
     }
-    #form{
+
+    #form {
         margin-bottom: 2rem;
         gap: 0.8rem;
     }
-    #form input{
+
+    #form input {
         width: 50%;
     }
-    #form textarea{
+
+    #form textarea {
         width: 50%;
     }
-    ::placeholder{
+
+    ::placeholder {
         font-size: 0.8rem;
     }
-    #form #submit{
+
+    #form #submit {
         font-size: 1rem;
         padding: 5px;
     }
-    #footer{
+
+    #footer {
         padding: 0.5rem 2%;
     }
-    #footer p{
+
+    #footer p {
         font-size: 0.9rem;
     }
-    #go-to-top i{
+
+    #go-to-top i {
         font-size: 15px;
     }
-    
+
 }
-@media only screen and (min-width: 768px) and (max-width:962px){
-    #profile-img{
+
+@media only screen and (min-width: 768px) and (max-width:962px) {
+    #profile-img {
         width: 260px;
         height: auto;
     }
-    #about-img img{
+
+    #about-img img {
         width: 260px;
         height: auto;
         margin: 0;
     }
-    #home-content{
+
+    #home-content {
         margin: auto;
         max-width: 319px;
     }
-    #home{
+
+    #home {
         flex-direction: row-reverse;
     }
-    
-    
-    #header{
+
+
+    #header {
         padding: 4px;
     }
-    #logo{
+
+    #logo {
         font-size: 1.8rem;
     }
-    #menu-icon{
+
+    #menu-icon {
         font-size: 2.5rem;
     }
-    #navbar a{
+
+    #navbar a {
         font-size: 1.3rem;
     }
-    #home{
+
+    #home {
         padding-top: 2rem;
     }
-    #home-content{
+
+    #home-content {
         margin: auto;
     }
-    #home-content h3{
+
+    #home-content h3 {
         font-size: 1.8rem;
     }
-    #home-content h3:nth-of-type(2){
+
+    #home-content h3:nth-of-type(2) {
         margin-bottom: 1rem;
     }
-    #home-content h1{
+
+    #home-content h1 {
         font-size: 2rem;
     }
-    #home-content p{
+
+    #home-content p {
         font-size: 1rem;
     }
-    
-    #home-icons a{
+
+    #home-icons a {
         width: 35px;
         height: 35px;
         margin: 0.5rem;
         font-size: 20px;
     }
-    .btn-box{
+
+    .btn-box {
         margin-top: 0.5rem;
         padding: 9px 26px;
         font-size: 12px;
     }
-    #about{
-        
+
+    #about {
+
         margin-top: 2rem;
     }
-    #about-img{
+
+    #about-img {
         text-align: center;
     }
-    #about-text p{
+
+    #about-text p {
         text-align: justify;
         margin: 2rem;
         padding: 0;
         font-size: 1rem;
     }
-    #about-text h2{
+
+    #about-text h2 {
         text-align: center;
         font-size: 2.3rem;
         padding: 0;
     }
-    #qualifications h1{
+
+    #qualifications h1 {
         padding: 1.3rem;
         margin-top: 3rem;
         font-size: 2.4rem;
     }
-    #qualifications-list{
+
+    #qualifications-list {
         margin: 0 2rem;
         margin-top: 1rem;
     }
-    #qualifications-list div{
+
+    #qualifications-list div {
         padding: 1.8rem;
     }
-    #qualifications-list div h2{
+
+    #qualifications-list div h2 {
         font-size: 1.7rem;
     }
-    #qualifications-list div h4{
+
+    #qualifications-list div h4 {
         font-size: 1rem;
     }
-    #qualifications-list div p{
+
+    #qualifications-list div p {
         font-size: 1rem;
     }
-    #skills h1{
+
+    #skills h1 {
         margin-top: 3.2rem;
         font-size: 2.4rem;
     }
-    #skills-list{
+
+    #skills-list {
         margin: 0 2rem;
         margin-top: 1rem;
     }
-    #skills-list div{
+
+    #skills-list div {
         padding: 1.8rem;
     }
-    #skills-list div h2{
+
+    #skills-list div h2 {
         font-size: 1.7rem;
     }
-    
-    #skills-list div p{
+
+    #skills-list div p {
         font-size: 1rem;
     }
-    #skills-list div a{
+
+    #skills-list div a {
         padding: 0.4rem;
     }
-    #skills-list i{
+
+    #skills-list i {
         font-size: 4rem;
     }
-    .learn-more{
+
+    .learn-more {
         padding: 2px 17px;
     }
-    #tech h1{
+
+    #tech h1 {
         margin-top: 3rem;
         font-size: 2.4rem;
     }
-    #tech-list{
+
+    #tech-list {
         margin: 0 2rem;
     }
-    #tech-list div{
+
+    #tech-list div {
         margin-top: 1.5rem;
         padding: 1.8rem;
     }
-    #tech-list div i{
+
+    #tech-list div i {
         font-size: 4rem;
     }
-    #projects h1{
+
+    #projects h1 {
         margin-top: 3rem;
         font-size: 2.4rem;
     }
-    #projects-list{
+
+    #projects-list {
         margin: 0 2rem;
         margin-top: 1rem;
     }
-    #projects-list div{
+
+    #projects-list div {
         padding: 1.8rem;
     }
-    #projects-list div h2{
+
+    #projects-list div h2 {
         font-size: 1.7rem;
     }
-    
-    #projects-list div p{
+
+    #projects-list div p {
         font-size: 1rem;
     }
-    #projects-list .learn-more{
+
+    #projects-list .learn-more {
         padding: 5px;
     }
-    #certifications h1{
+
+    #certifications h1 {
         margin-top: 3rem;
         font-size: 2.4rem;
     }
-    #certifications-list{
+
+    #certifications-list {
         margin: 0 2rem;
         margin-top: 1rem;
     }
-    #certifications-list div{
+
+    #certifications-list div {
         padding: 1.8rem;
     }
-    #certifications-list div h2{
+
+    #certifications-list div h2 {
         font-size: 1.7rem;
     }
-    #certifications-list i{
+
+    #certifications-list i {
         font-size: 4.2rem;
     }
-    
-    #certifications-list div p{
+
+    #certifications-list div p {
         font-size: 1rem;
     }
-    #certifications-list .learn-more{
+
+    #certifications-list .learn-more {
         padding: 6px;
     }
-    #contact h2{
+
+    #contact h2 {
         margin-top: 3rem;
         margin-bottom: 1rem;
         font-size: 2.6rem;
     }
-    #form{
+
+    #form {
         margin-bottom: 2rem;
         gap: 0.8rem;
     }
-    #form input{
+
+    #form input {
         width: 50%;
     }
-    #form textarea{
+
+    #form textarea {
         width: 50%;
     }
-    ::placeholder{
+
+    ::placeholder {
         font-size: 0.8rem;
     }
-    #form #submit{
+
+    #form #submit {
         font-size: 1rem;
         padding: 5px;
     }
-    #footer{
+
+    #footer {
         padding: 0.5rem 2%;
     }
-    #footer p{
+
+    #footer p {
         font-size: 0.9rem;
     }
-    #go-to-top i{
+
+    #go-to-top i {
         font-size: 15px;
     }
-    
+
 }
+
 @media only screen and (max-width: 768px) {
     #qualifications-list div:hover {
         transform: scale(1);
     }
+
     #skills-list div:hover {
         transform: scale(1);
     }
+
     #projects-list div:hover {
         transform: scale(1);
     }
+
     #certifications-list div:hover {
         transform: scale(1);
     }
@@ -1872,851 +2150,1066 @@ section {
         box-shadow: .5rem 0 1rem rgba(0, 0, 0, .2);
         display: none;
     }
-    
+
 }
-@media only screen and (min-width: 426px) and (max-width:768px){
-    #profile-img{
+
+@media only screen and (min-width: 426px) and (max-width:768px) {
+    #profile-img {
         width: 300px;
         height: auto;
         margin: auto;
     }
-    #about-img img{
+
+    #about-img img {
         width: 300px;
         height: auto;
         margin: 0;
     }
-    img{
+
+    img {
         margin: auto;
     }
-    #header{
+
+    #header {
         padding: 4px;
     }
-    #logo{
+
+    #logo {
         font-size: 1.8rem;
     }
-    #menu-icon{
+
+    #menu-icon {
         font-size: 2.5rem;
     }
-    #navbar a{
+
+    #navbar a {
         font-size: 1.3rem;
     }
-    #home{
+
+    #home {
         height: auto;
         padding-top: 2rem;
     }
-    #home-content{
+
+    #home-content {
         margin: auto;
     }
-    #home-content h3{
+
+    #home-content h3 {
         font-size: 2rem;
     }
-    #home-content h3:nth-of-type(2){
+
+    #home-content h3:nth-of-type(2) {
         margin-bottom: 1rem;
     }
-    #home-content h1{
+
+    #home-content h1 {
         font-size: 2.5rem;
     }
-    #home-content p{
+
+    #home-content p {
         font-size: 1rem;
     }
-    
-    #home-icons a{
+
+    #home-icons a {
         width: 35px;
         height: 35px;
         margin: 0.5rem;
         font-size: 20px;
     }
-    .btn-box{
+
+    .btn-box {
         margin-top: 0.5rem;
         padding: 9px 26px;
         font-size: 12px;
     }
-    #about{
+
+    #about {
         margin-top: 2rem;
         grid-template-columns: repeat(1, 1fr);
     }
-    #about-img{
+
+    #about-img {
         text-align: center;
     }
-    #about-text p{
+
+    #about-text p {
         text-align: justify;
         margin: 2rem;
         padding: 0;
         font-size: 1rem;
     }
-    #about-text h2{
+
+    #about-text h2 {
         text-align: center;
         font-size: 2.3rem;
         padding: 0;
     }
-    #qualifications h1{
+
+    #qualifications h1 {
         padding: 1.3rem;
         margin-top: 3rem;
         font-size: 2.4rem;
     }
-    #qualifications-list{
+
+    #qualifications-list {
         margin: 0 2rem;
         margin-top: 1rem;
     }
-    #qualifications-list div{
+
+    #qualifications-list div {
         margin: 5px;
         padding: 1.8rem;
     }
-    #qualifications-list div h2{
+
+    #qualifications-list div h2 {
         font-size: 1.7rem;
     }
-    #qualifications-list div h4{
+
+    #qualifications-list div h4 {
         font-size: 1rem;
     }
-    #qualifications-list div p{
+
+    #qualifications-list div p {
         font-size: 1rem;
     }
-    #skills h1{
+
+    #skills h1 {
         margin-top: 3.2rem;
         font-size: 2.4rem;
     }
-    #skills-list{
+
+    #skills-list {
         margin: 0 2rem;
         margin-top: 1rem;
     }
-    #skills-list div{
+
+    #skills-list div {
         margin: 5px;
         padding: 1.8rem;
     }
-    #skills-list div h2{
+
+    #skills-list div h2 {
         font-size: 1.7rem;
     }
-    
-    #skills-list div p{
+
+    #skills-list div p {
         font-size: 1rem;
     }
-    #skills-list div a{
+
+    #skills-list div a {
         padding: 0.4rem;
     }
-    #skills-list i{
+
+    #skills-list i {
         font-size: 4rem;
     }
-    .learn-more{
+
+    .learn-more {
         padding: 2px 17px;
     }
-    #tech h1{
+
+    #tech h1 {
         margin-top: 3rem;
         font-size: 2.4rem;
     }
-    #tech-list{
+
+    #tech-list {
         margin: 0 2rem;
     }
-    #tech-list div{
+
+    #tech-list div {
         margin: 5px;
         margin-top: 1.5rem;
         padding: 1.8rem;
     }
-    #tech-list div i{
+
+    #tech-list div i {
         font-size: 4rem;
     }
-    #projects h1{
+
+    #projects h1 {
         margin-top: 3rem;
         font-size: 2.4rem;
     }
-    #projects-list{
+
+    #projects-list {
         margin: 0 2rem;
         margin-top: 1rem;
     }
-    #projects-list div{
+
+    #projects-list div {
         margin: 5px;
         padding: 1.8rem;
     }
-    #projects-list div h2{
+
+    #projects-list div h2 {
         font-size: 1.7rem;
     }
-    
-    #projects-list div p{
+
+    #projects-list div p {
         font-size: 1rem;
     }
-    #projects-list .learn-more{
+
+    #projects-list .learn-more {
         padding: 5px;
     }
-    #certifications h1{
+
+    #certifications h1 {
         margin-top: 3rem;
         font-size: 2.4rem;
     }
-    #certifications-list{
+
+    #certifications-list {
         margin: 0 2rem;
         margin-top: 1rem;
     }
-    #certifications-list div{
+
+    #certifications-list div {
         padding: 1.8rem;
         margin: 5px;
     }
-    #certifications-list div h2{
+
+    #certifications-list div h2 {
         font-size: 1.7rem;
     }
-    #certifications-list i{
+
+    #certifications-list i {
         font-size: 4.2rem;
     }
-    
-    #certifications-list div p{
+
+    #certifications-list div p {
         font-size: 1rem;
     }
-    #certifications-list .learn-more{
+
+    #certifications-list .learn-more {
         padding: 6px;
     }
-    #contact h2{
+
+    #contact h2 {
         margin-top: 3rem;
         margin-bottom: 1rem;
         font-size: 2.6rem;
     }
-    #form{
+
+    #form {
         margin-bottom: 2rem;
         gap: 0.8rem;
     }
-    #form input{
+
+    #form input {
         width: 80%;
     }
-    #form textarea{
+
+    #form textarea {
         width: 80%;
     }
-    ::placeholder{
+
+    ::placeholder {
         font-size: 0.8rem;
     }
-    #form #submit{
+
+    #form #submit {
         font-size: 0.9rem;
         padding: 5px;
     }
-    #footer{
+
+    #footer {
         padding: 0.5rem 2%;
     }
-    #footer p{
+
+    #footer p {
         font-size: 0.9rem;
     }
-    #go-to-top i{
+
+    #go-to-top i {
         font-size: 15px;
     }
 }
-@media only screen and (min-width: 375px) and (max-width:426px){
-    #profile-img{
+
+@media only screen and (min-width: 375px) and (max-width:426px) {
+    #profile-img {
         width: 220px;
         height: auto;
         margin: auto;
     }
-    #about-img img{
+
+    #about-img img {
         width: 220px;
         height: auto;
         margin: 0;
     }
-    img{
+
+    img {
         margin: auto;
     }
-    #header{
+
+    #header {
         padding: 4px;
     }
-    #logo{
+
+    #logo {
         font-size: 1.5rem;
     }
-    #menu-icon{
+
+    #menu-icon {
         font-size: 2.3rem;
     }
-    #navbar a{
+
+    #navbar a {
         font-size: 1rem;
     }
-    #home{
+
+    #home {
         height: auto;
         padding-top: 2rem;
     }
-    #home-content h3{
+
+    #home-content h3 {
         font-size: 19px;
     }
-    #home-content h3:nth-of-type(2){
+
+    #home-content h3:nth-of-type(2) {
         margin-bottom: 1rem;
     }
-    #home-content h1{
+
+    #home-content h1 {
         font-size: 2.3rem;
     }
-    #home-content p{
+
+    #home-content p {
         font-size: 1rem;
     }
-    
-    #home-icons a{
+
+    #home-icons a {
         width: 35px;
         height: 35px;
         margin: 0.5rem;
         font-size: 20px;
     }
-    .btn-box{
+
+    .btn-box {
         margin-top: 0.5rem;
         padding: 9px 26px;
         font-size: 12px;
     }
-    #about{
+
+    #about {
         grid-template-columns: repeat(1, 1fr);
     }
-    #about-img{
+
+    #about-img {
         text-align: center;
     }
-    #about-text p{
+
+    #about-text p {
         text-align: justify;
         margin: 1rem;
         padding: 0;
         font-size: 1rem;
     }
-    #about-text h2{
+
+    #about-text h2 {
         text-align: center;
         font-size: 2.3rem;
         padding: 0;
     }
-    #qualifications h1{
+
+    #qualifications h1 {
         padding: 1.3rem;
         margin-top: 3rem;
         font-size: 2.4rem;
     }
-    #qualifications-list{
+
+    #qualifications-list {
         margin-top: 1rem;
     }
-    #qualifications-list div{
+
+    #qualifications-list div {
         margin: 0.8rem 2.4rem;
         padding: 1.8rem;
     }
-    #qualifications-list div h2{
+
+    #qualifications-list div h2 {
         font-size: 1.7rem;
     }
-    #qualifications-list div h4{
+
+    #qualifications-list div h4 {
         font-size: 1rem;
     }
-    #qualifications-list div p{
+
+    #qualifications-list div p {
         font-size: 1rem;
     }
-    #skills h1{
+
+    #skills h1 {
         margin-top: 3rem;
         font-size: 2.4rem;
     }
-    #skills-list{
+
+    #skills-list {
         margin-top: 1rem;
     }
-    #skills-list div{
+
+    #skills-list div {
         margin: 0.8rem 2.4rem;
         padding: 1.8rem;
     }
-    #skills-list div h2{
+
+    #skills-list div h2 {
         font-size: 1.7rem;
     }
-    
-    #skills-list div p{
+
+    #skills-list div p {
         font-size: 1rem;
     }
-    #skills-list div a{
+
+    #skills-list div a {
         padding: 0.4rem;
     }
-    #skills-list i{
+
+    #skills-list i {
         font-size: 4rem;
     }
-    .learn-more{
+
+    .learn-more {
         padding: 2px 17px;
     }
-    #tech h1{
+
+    #tech h1 {
         margin-top: 3rem;
         font-size: 2.4rem;
     }
-    #tech-list{
+
+    #tech-list {
         margin-top: 1rem;
     }
-    #tech-list div{
+
+    #tech-list div {
         margin: 0.8rem 2.4rem;
         padding: 1.8rem;
     }
-    #tech-list div i{
+
+    #tech-list div i {
         font-size: 4rem;
     }
-    #projects h1{
+
+    #projects h1 {
         margin-top: 3rem;
         font-size: 2.4rem;
     }
-    #projects-list{
+
+    #projects-list {
         margin-top: 1rem;
     }
-    #projects-list div{
+
+    #projects-list div {
         margin: 0.8rem 2.4rem;
         padding: 1.8rem;
     }
-    #projects-list div h2{
+
+    #projects-list div h2 {
         font-size: 1.7rem;
     }
-    
-    #projects-list div p{
+
+    #projects-list div p {
         font-size: 1rem;
     }
-    #projects-list .learn-more{
+
+    #projects-list .learn-more {
         padding: 5px;
     }
-    #certifications h1{
+
+    #certifications h1 {
         margin-top: 3rem;
         font-size: 2.4rem;
     }
-    #certifications-list{
+
+    #certifications-list {
         margin-top: 1rem;
     }
-    #certifications-list div{
+
+    #certifications-list div {
         margin: 0.8rem 2.4rem;
         padding: 1.8rem;
     }
-    #certifications-list div h2{
+
+    #certifications-list div h2 {
         font-size: 1.7rem;
     }
-    #certifications-list i{
+
+    #certifications-list i {
         font-size: 4.2rem;
     }
-    
-    #certifications-list div p{
+
+    #certifications-list div p {
         font-size: 1rem;
     }
-    #certifications-list .learn-more{
+
+    #certifications-list .learn-more {
         padding: 6px;
     }
-    #contact h2{
+
+    #contact h2 {
         margin-top: 3rem;
         margin-bottom: 1rem;
         font-size: 2.6rem;
     }
-    #form{
+
+    #form {
         margin-bottom: 2rem;
         gap: 0.8rem;
     }
-    #form input{
+
+    #form input {
         width: 80%;
     }
-    #form textarea{
+
+    #form textarea {
         width: 80%;
     }
-    ::placeholder{
+
+    ::placeholder {
         font-size: 0.8rem;
     }
-    #form #submit{
+
+    #form #submit {
         font-size: 0.9rem;
         padding: 5px;
     }
-    #footer{
+
+    #footer {
         padding: 0.5rem 2%;
     }
-    #footer p{
+
+    #footer p {
         font-size: 0.9rem;
     }
-    #go-to-top i{
+
+    #go-to-top i {
         font-size: 15px;
     }
 }
-@media only screen and (min-width: 320px) and (max-width:375px){
-    #profile-img{
+
+@media only screen and (min-width: 320px) and (max-width:375px) {
+    #profile-img {
         width: 200px;
         height: auto;
         margin: auto;
     }
-    #about-img img{
+
+    #about-img img {
         width: 200px;
         height: auto;
         margin: 0;
 
     }
-    img{
+
+    img {
         margin: auto;
     }
-    
-    
-    #header{
+
+
+    #header {
         padding: 4px;
     }
-    #logo{
+
+    #logo {
         font-size: 1.5rem;
     }
-    #menu-icon{
+
+    #menu-icon {
         font-size: 2rem;
     }
-    #navbar a{
+
+    #navbar a {
         font-size: 1rem;
     }
-    #home{
+
+    #home {
         height: auto;
         padding-top: 2rem;
     }
-    #home-content h3{
+
+    #home-content h3 {
         font-size: 19px;
     }
-    #home-content h3:nth-of-type(2){
+
+    #home-content h3:nth-of-type(2) {
         margin-bottom: 1rem;
     }
-    #home-content h1{
+
+    #home-content h1 {
         font-size: 2rem;
     }
-    #home-content p{
+
+    #home-content p {
         font-size: 1rem;
     }
-    
-    #home-icons a{
+
+    #home-icons a {
         width: 35px;
         height: 35px;
         margin: 0.5rem;
         font-size: 20px;
     }
-    .btn-box{
+
+    .btn-box {
         margin-top: 0.5rem;
         padding: 9px 26px;
         font-size: 12px;
     }
-    #about{
+
+    #about {
         grid-template-columns: repeat(1, 1fr);
     }
-    #about-img{
+
+    #about-img {
         text-align: center;
     }
-    #about-text p{
+
+    #about-text p {
         text-align: justify;
         margin: 1rem;
         padding: 0;
         font-size: 1rem;
     }
-    #about-text h2{
+
+    #about-text h2 {
         text-align: center;
         font-size: 2rem;
         padding: 0;
     }
-    #qualifications h1{
+
+    #qualifications h1 {
         padding: 1.3rem;
         margin-top: 3rem;
         font-size: 2rem;
     }
-    #qualifications-list{
+
+    #qualifications-list {
         margin-top: 1rem;
     }
-    #qualifications-list div{
+
+    #qualifications-list div {
         margin: 0.8rem 2rem;
         padding: 1.8rem;
     }
-    #qualifications-list div h2{
+
+    #qualifications-list div h2 {
         font-size: 1.5rem;
     }
-    #qualifications-list div h4{
+
+    #qualifications-list div h4 {
         font-size: 1rem;
     }
-    #qualifications-list div p{
+
+    #qualifications-list div p {
         font-size: 1rem;
     }
-    #skills h1{
+
+    #skills h1 {
         margin-top: 3rem;
         font-size: 2rem;
     }
-    #skills-list{
+
+    #skills-list {
         margin-top: 1rem;
     }
-    #skills-list div{
+
+    #skills-list div {
         margin: 0.8rem 2rem;
         padding: 1.8rem;
     }
-    #skills-list div h2{
+
+    #skills-list div h2 {
         font-size: 1.5rem;
     }
-    
-    #skills-list div p{
+
+    #skills-list div p {
         font-size: 1rem;
     }
-    #skills-list div a{
+
+    #skills-list div a {
         padding: 0.4rem;
     }
-    #skills-list i{
+
+    #skills-list i {
         font-size: 3.5rem;
     }
-    .learn-more{
+
+    .learn-more {
         padding: 2px 17px;
     }
-    #tech h1{
+
+    #tech h1 {
         margin-top: 3rem;
         font-size: 2rem;
     }
-    #tech-list{
+
+    #tech-list {
         margin-top: 1rem;
     }
-    #tech-list div{
+
+    #tech-list div {
         margin: 0.8rem 2rem;
         padding: 1.8rem;
     }
-    #tech-list div i{
+
+    #tech-list div i {
         font-size: 3.5rem;
     }
-    #projects h1{
+
+    #projects h1 {
         margin-top: 3rem;
         font-size: 2rem;
     }
-    #projects-list{
+
+    #projects-list {
         margin-top: 1rem;
     }
-    #projects-list div{
+
+    #projects-list div {
         margin: 0.8rem 2rem;
         padding: 1.8rem;
     }
-    #projects-list div h2{
+
+    #projects-list div h2 {
         font-size: 1.5rem;
     }
-    
-    #projects-list div p{
+
+    #projects-list div p {
         font-size: 1rem;
     }
-    #projects-list .learn-more{
+
+    #projects-list .learn-more {
         padding: 5px;
     }
-    #certifications h1{
+
+    #certifications h1 {
         margin-top: 3rem;
         font-size: 2rem;
     }
-    #certifications-list{
+
+    #certifications-list {
         margin-top: 1rem;
     }
-    #certifications-list div{
+
+    #certifications-list div {
         margin: 0.8rem 2rem;
         padding: 1.8rem;
     }
-    #certifications-list div h2{
+
+    #certifications-list div h2 {
         font-size: 1.5rem;
     }
-    #certifications-list i{
+
+    #certifications-list i {
         font-size: 4rem;
     }
-    
-    #certifications-list div p{
+
+    #certifications-list div p {
         font-size: 1rem;
     }
-    #certifications-list .learn-more{
+
+    #certifications-list .learn-more {
         padding: 6px;
     }
-    #contact h2{
+
+    #contact h2 {
         margin-top: 3rem;
         margin-bottom: 1rem;
         font-size: 2.2rem;
     }
-    #form{
+
+    #form {
         margin-bottom: 2rem;
         gap: 0.8rem;
     }
-    #form input{
+
+    #form input {
         width: 80%;
     }
-    #form textarea{
+
+    #form textarea {
         width: 80%;
     }
-    ::placeholder{
+
+    ::placeholder {
         font-size: 0.8rem;
     }
-    #form #submit{
+
+    #form #submit {
         padding: 5px;
     }
-    #footer{
+
+    #footer {
         padding: 0.5rem 2%;
     }
-    #footer p{
+
+    #footer p {
         font-size: 0.8rem;
     }
-    #go-to-top i{
+
+    #go-to-top i {
         font-size: 15px;
     }
 }
-@media only screen and (max-width: 320px){
-    #profile-img{
+
+@media only screen and (max-width: 320px) {
+    #profile-img {
         width: 180px;
         height: auto;
         margin: auto;
     }
-    #about-img img{
+
+    #about-img img {
         width: 180px;
         height: auto;
         margin: 0;
 
     }
-    img{
+
+    img {
         margin: auto;
     }
-    
-    
-    #header{
+
+
+    #header {
         padding: 4px;
     }
-    #logo{
+
+    #logo {
         font-size: 1.5rem;
     }
-    #menu-icon{
+
+    #menu-icon {
         font-size: 2rem;
     }
-    #navbar a{
+
+    #navbar a {
         font-size: 1rem;
     }
-    #home{
+
+    #home {
         padding-top: 2rem;
     }
-    #home-content h3{
+
+    #home-content h3 {
         font-size: 19px;
     }
-    #home-content h3:nth-of-type(2){
+
+    #home-content h3:nth-of-type(2) {
         margin-bottom: 1rem;
     }
-    #home-content h1{
+
+    #home-content h1 {
         font-size: 2rem;
     }
-    #home-content p{
+
+    #home-content p {
         font-size: 1rem;
     }
-    #home-icons a{
+
+    #home-icons a {
         width: 35px;
         height: 35px;
         margin: 0.5rem;
         font-size: 20px;
     }
-    .btn-box{
+
+    .btn-box {
         padding: 9px 26px;
         font-size: 12px;
     }
-    #about{
+
+    #about {
         grid-template-columns: repeat(1, 1fr);
     }
-    #about-img{
+
+    #about-img {
         text-align: center;
     }
-    #about-text p{
+
+    #about-text p {
         text-align: justify;
         margin: 0.5rem;
         padding: 0;
         font-size: 1rem;
     }
-    #about-text h2{
+
+    #about-text h2 {
         text-align: center;
         font-size: 2rem;
         padding: 0;
     }
-    #qualifications h1{
+
+    #qualifications h1 {
         margin-top: 3rem;
         font-size: 2rem;
     }
-    #qualifications-list{
+
+    #qualifications-list {
         margin-top: 1rem;
     }
-    #qualifications-list div{
+
+    #qualifications-list div {
         margin: 0.8rem 2rem;
         padding: 1.8rem;
     }
-    #qualifications-list div h2{
+
+    #qualifications-list div h2 {
         font-size: 1.5rem;
     }
-    #qualifications-list div h4{
+
+    #qualifications-list div h4 {
         font-size: 1rem;
     }
-    #qualifications-list div p{
+
+    #qualifications-list div p {
         font-size: 1rem;
     }
-    #skills h1{
+
+    #skills h1 {
         margin-top: 3rem;
         font-size: 2rem;
     }
-    #skills-list{
+
+    #skills-list {
         margin-top: 1rem;
     }
-    #skills-list div{
+
+    #skills-list div {
         margin: 0.8rem 2rem;
         padding: 1.8rem;
     }
-    #skills-list div h2{
+
+    #skills-list div h2 {
         font-size: 1.5rem;
     }
-    
-    #skills-list div p{
+
+    #skills-list div p {
         font-size: 1rem;
     }
-    #skills-list i{
+
+    #skills-list i {
         font-size: 3rem;
     }
-    .learn-more{
+
+    .learn-more {
         padding: 2px 17px;
     }
-    #tech h1{
+
+    #tech h1 {
         margin-top: 3rem;
         font-size: 2rem;
     }
-    #tech-list{
+
+    #tech-list {
         margin-top: 1rem;
     }
-    #tech-list div{
+
+    #tech-list div {
         margin: 0.8rem 2rem;
         padding: 1.8rem;
     }
-    #tech-list div i{
+
+    #tech-list div i {
         font-size: 3.5rem;
     }
-    #projects h1{
+
+    #projects h1 {
         margin-top: 3rem;
         font-size: 2rem;
     }
-    #projects-list{
+
+    #projects-list {
         margin-top: 1rem;
     }
-    #projects-list div{
+
+    #projects-list div {
         margin: 0.8rem 2rem;
         padding: 1.8rem;
     }
-    #projects-list div h2{
+
+    #projects-list div h2 {
         font-size: 1.5rem;
     }
-    
-    #projects-list div p{
+
+    #projects-list div p {
         font-size: 1rem;
     }
-    #projects-list .learn-more{
+
+    #projects-list .learn-more {
         padding: 5px;
     }
-    #certifications h1{
+
+    #certifications h1 {
         margin-top: 3rem;
         font-size: 2rem;
     }
-    #certifications-list{
+
+    #certifications-list {
         margin-top: 1rem;
     }
-    #certifications-list div{
+
+    #certifications-list div {
         margin: 0.8rem 2rem;
         padding: 1.8rem;
     }
-    #certifications-list div h2{
+
+    #certifications-list div h2 {
         font-size: 1.5rem;
     }
-    #certifications-list i{
+
+    #certifications-list i {
         font-size: 4rem;
     }
-    
-    #certifications-list div p{
+
+    #certifications-list div p {
         font-size: 1rem;
     }
-    #certifications-list .learn-more{
+
+    #certifications-list .learn-more {
         padding: 6px;
     }
-    #contact h2{
+
+    #contact h2 {
         margin-top: 3rem;
         margin-bottom: 1rem;
         font-size: 2.2rem;
     }
-    #form{
+
+    #form {
         margin-bottom: 2rem;
         gap: 0.8rem;
     }
-    #form input{
+
+    #form input {
         width: 80%;
     }
-    #form textarea{
+
+    #form textarea {
         width: 80%;
     }
-    ::placeholder{
+
+    ::placeholder {
         font-size: 0.8rem;
     }
-    #form #submit{
+
+    #form #submit {
         padding: 5px;
     }
-    #footer{
+
+    #footer {
         padding: 0.5rem 2%;
     }
-    #footer p{
+
+    #footer p {
         font-size: 12px;
     }
-    #go-to-top i{
+
+    #go-to-top i {
         font-size: 15px;
     }
 }
