@@ -6,9 +6,15 @@
     scroll-behavior: smooth;
 }
 
+:root {
+    --body-color: black;
+    --shadow-color: cyan;
+    --text-color: aliceblue;
+}
+
 body {
-    color: #ededed;
-    background: #081B29;
+    color: var(--text-color);
+    background: var(--body-color);
 }
 
 section {
@@ -24,18 +30,18 @@ section {
     left: 0;
     width: 100%;
     padding: 20px 10px;
-    background: #051129;
+    background: var(--body-color);
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    box-shadow: 10px 10px 10px #051129;
+    box-shadow: 10px 10px 10px var(--body-color);
 }
 
 #logo {
     position: relative;
     padding-left: 10px;
     font-size: 32px;
-    color: aliceblue;
+    color: var(--text-color);
     text-decoration: none;
     font-weight: 600;
     cursor: default;
@@ -50,7 +56,7 @@ section {
 #navbar a {
     display: inline-block;
     font-size: 25px;
-    color: aliceblue;
+    color: var(--text-color);
     text-decoration: none;
     font-weight: 500;
     margin-left: 35px;
@@ -62,7 +68,7 @@ section {
 
 #navbar a:hover,
 #navbar a.active {
-    color: #0ef;
+    color: var(--shadow-color);
 }
 
 #menu-icon {
@@ -73,7 +79,7 @@ section {
 
 #header .logo:hover {
     cursor: pointer;
-    box-shadow: 0 0 25px cyan, 0 0 25px cyan;
+    box-shadow: 0 0 25px var(--shadow-color), 0 0 25px var(--shadow-color);
 }
 
 /* Section: Home */
@@ -95,7 +101,7 @@ section {
 }
 
 #home-content h3 {
-    color: aliceblue;
+    color: var(--text-color);
     font-size: 32px;
     font-weight: 700;
     opacity: 0;
@@ -110,11 +116,12 @@ section {
 }
 
 #home-content h3 span {
-    color: #0ef;
+    color: var(--shadow-color);
+
 }
 
 #home-content h1 {
-    color: aliceblue;
+    color: var(--text-color);
     font-size: 60px;
     font-weight: 700;
     margin: -3px 0;
@@ -137,10 +144,10 @@ section {
     height: 40px;
     margin: 30px 15px 30px 0;
     background: transparent;
-    border: 2px solid #0ef;
+    border: 2px solid var(--shadow-color);
     border-radius: 50%;
     font-size: 20px;
-    color: #0ef;
+    color: var(--shadow-color);
     text-decoration: none;
     transition: .5s ease;
     opacity: 0;
@@ -149,30 +156,30 @@ section {
 }
 
 #home-icons a:hover {
-    background: #0ef;
-    color: #081B29;
-    box-shadow: 0 0 20px #0ef;
+    background: var(--shadow-color);
+    color: var(--body-color);
+    box-shadow: 0 0 20px var(--shadow-color);
 }
 
 .btn-box {
     display: inline-block;
     padding: 12px 28px;
-    background: #0ef;
+    background: var(--shadow-color);
     border-radius: 40px;
     font-size: 16px;
-    color: #081B29;
+    color: var(--body-color);
     letter-spacing: 1px;
     text-decoration: none;
     font-weight: 1000;
     opacity: 0;
     animation: slideTop 1s ease forwards;
     animation-delay: 2s;
-    box-shadow: 0 0 5px #0ef,
-        0 0 25px #0ef;
+    box-shadow: 0 0 5px var(--shadow-color),
+        0 0 25px var(--shadow-color);
 }
 
 .btn-box:hover {
-    box-shadow: 0 0 25px cyan, 0 0 25px cyan;
+    box-shadow: 0 0 25px var(--shadow-color), 0 0 25px var(--shadow-color);
 }
 
 #profile-img {
@@ -198,18 +205,18 @@ section {
 
 #about-text h2 {
     padding-top: 40px;
-    color: aliceblue;
+    color: var(--text-color);
     font-size: 60px;
     animation: slideRight 1s ease forwards;
 }
 
 #about-text h2 span {
-    color: #0ef;
+    color: var(--shadow-color);
 }
 
 #about-text p {
     padding-top: 1rem;
-    color: aliceblue;
+    color: var(--text-color);
     font-size: 20px;
     line-height: 1.4;
     margin-bottom: 2rem;
@@ -223,14 +230,14 @@ section {
 
 /* Section: Qualifications */
 #qualifications h1 {
-    color: aliceblue;
+    color: var(--text-color);
     text-align: center;
     font-size: 50px;
     animation: slideRight 1s ease forwards;
 }
 
 #qualifications h1 span {
-    color: #0ef;
+    color: var(--shadow-color);
 }
 
 #qualifications-list {
@@ -252,12 +259,12 @@ section {
     border-right: 10px;
     border-radius: 20px;
     transition: background 0.5s, transform 0.5s;
-    box-shadow: 1px 1px 20px #012290f7,
-        1px 1px 40px #0053b8f7;
+    box-shadow: 1px 1px 20px var(--shadow-color),
+        1px 1px 40px var(--shadow-color);
 }
 
 #qualifications-list div h2 {
-    color: aliceblue;
+    color: var(--text-color);
     font-size: 30px;
     font-weight: 500px;
     margin-bottom: 15px;
@@ -265,7 +272,7 @@ section {
 }
 
 #qualifications-list div h4 {
-    color: aliceblue;
+    color: var(--text-color);
     font-size: 20px;
     font-weight: normal;
     text-align: center;
@@ -274,7 +281,7 @@ section {
 
 #qualifications-list div p {
     font-size: 1.3em;
-    color: aliceblue;
+    color: var(--text-color);
 }
 
 #qualifications-list div a {
@@ -283,7 +290,7 @@ section {
     text-align: center;
 
     text-decoration: none;
-    color: #000000;
+    color: var(--body-color);
     font-size: 12px;
     margin-top: 30px;
 }
@@ -295,35 +302,35 @@ section {
 .learn-more {
     display: inline-block;
     padding: 12px 28px;
-    background-color: #0ef;
+    background-color: var(--shadow-color);
     border-radius: 40px;
     font-size: 16px;
-    color: #081B29;
+    color: var(--body-color);
     letter-spacing: 1px;
     text-decoration: none;
     font-weight: 600;
     opacity: 0;
     animation: slideTop 1s ease forwards;
     animation-delay: 2s;
-    box-shadow: 0 0 5px #0ef,
-        0 0 25px #0ef;
+    box-shadow: 0 0 5px var(--shadow-color),
+        0 0 25px var(--shadow-color);
 }
 
 .learn-more:hover {
-    box-shadow: 0 0 25px cyan,
-        0 0 25px cyan;
+    box-shadow: 0 0 25px var(--shadow-color),
+        0 0 25px var(--shadow-color);
 }
 
 /* Section: Skills */
 #skills h1 {
-    color: aliceblue;
+    color: var(--text-color);
     text-align: center;
     font-size: 50px;
     animation: slideRight 1s ease forwards;
 }
 
 #skills h1 span {
-    color: #0ef;
+    color: var(--shadow-color);
 }
 
 #skills-list {
@@ -343,19 +350,19 @@ section {
     border-right: 10px;
     border-radius: 20px;
     transition: background 0.5s, transform 0.5s;
-    box-shadow: 1px 1px 20px #012290f7,
-        1px 1px 40px #0053b8f7;
+    box-shadow: 1px 1px 20px var(--shadow-color),
+        1px 1px 40px var(--shadow-color);
 }
 
 #skills-list i {
     text-align: center;
     font-size: 5rem;
-    color: #0ef;
+    color: var(--shadow-color);
     animation: slideBottom 1s ease forwards;
 }
 
 #skills-list div h2 {
-    color: aliceblue;
+    color: var(--text-color);
     text-align: center;
     font-size: 30px;
     font-weight: 500px;
@@ -364,7 +371,7 @@ section {
 
 #skills-list div p {
     font-size: 1.3em;
-    color: aliceblue;
+    color: var(--text-color);
 }
 
 #skills-list div a {
@@ -372,7 +379,7 @@ section {
     width: 50%;
     display: inline-block;
     text-decoration: none;
-    color: #000000;
+    color: black;
     font-size: 12px;
     text-align: center;
     margin-top: 30px;
@@ -388,14 +395,14 @@ section {
 }
 
 #tech h1 {
-    color: aliceblue;
+    color: var(--text-color);
     text-align: center;
     font-size: 50px;
     animation: slideRight 1s ease forwards;
 }
 
 #tech h1 span {
-    color: #0ef;
+    color: var(--shadow-color);
 }
 
 #tech-list {
@@ -412,12 +419,12 @@ section {
     font-weight: 13px;
     border-right: 10px;
     border-radius: 20px;
-    box-shadow: 1px 1px 20px #012290f7,
-        1px 1px 40px #0053b8f7;
+    box-shadow: 1px 1px 20px var(--shadow-color),
+        1px 1px 40px var(--shadow-color);
 }
 
 #tech-list div i {
-    color: #0ef;
+    color: var(--shadow-color);
     font-size: 5rem;
     transition: .3s;
     opacity: 0;
@@ -428,8 +435,8 @@ section {
 }
 
 #tech-list div i:hover {
-    box-shadow: 1px 1px 10px cyan,
-        1px 1px 20px cyan;
+    box-shadow: 1px 1px 10px var(--shadow-color),
+        1px 1px 20px var(--shadow-color);
     border-radius: 20%;
 
 }
@@ -440,10 +447,10 @@ section {
     top: 36%;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #081B29;
-    box-shadow: 1px 1px 20px cyan,
-        1px 1px 40px cyan;
-    color: #0ef;
+    background-color: var(--body-color);
+    box-shadow: 1px 1px 20px var(--shadow-color),
+        1px 1px 40px var(--shadow-color);
+    color: var(--shadow-color);
     padding: 5px;
     border-radius: 5px;
     font-size: 15px;
@@ -455,14 +462,14 @@ section {
 
 /* Section: Projects */
 #projects h1 {
-    color: aliceblue;
+    color: var(--text-color);
     text-align: center;
     font-size: 50px;
     animation: slideRight 1s ease forwards;
 }
 
 #projects h1 span {
-    color: #0ef;
+    color: var(--shadow-color);
 }
 
 #projects-list {
@@ -482,12 +489,12 @@ section {
     border-right: 10px;
     border-radius: 20px;
     transition: background 0.5s, transform 0.5s;
-    box-shadow: 1px 1px 20px #012290f7,
-        1px 1px 40px #0053b8f7;
+    box-shadow: 1px 1px 20px var(--shadow-color),
+        1px 1px 40px var(--shadow-color);
 }
 
 #projects-list div h2 {
-    color: aliceblue;
+    color: var(--text-color);
     text-align: center;
     font-size: 30px;
     font-weight: 500px;
@@ -496,7 +503,7 @@ section {
 
 #projects-list div p {
     font-size: 1.3em;
-    color: aliceblue;
+    color: var(--text-color);
 }
 
 #projects-list div a {
@@ -505,7 +512,7 @@ section {
     text-align: center;
 
     text-decoration: none;
-    color: #000000;
+    color: var(--body-color);
     font-size: 12px;
     margin-top: 30px;
 }
@@ -520,14 +527,14 @@ section {
 }
 
 #certifications h1 {
-    color: aliceblue;
+    color: var(--text-color);
     text-align: center;
     font-size: 50px;
     animation: slideRight 1s ease forwards;
 }
 
 #certifications h1 span {
-    color: #0ef;
+    color: var(--shadow-color);
 }
 
 #certifications-list {
@@ -547,19 +554,19 @@ section {
     border-right: 10px;
     border-radius: 20px;
     transition: background 0.5s, transform 0.5s;
-    box-shadow: 1px 1px 20px #012290f7,
-        1px 1px 40px #0053b8f7;
+    box-shadow: 1px 1px 20px var(--shadow-color),
+        1px 1px 40px var(--shadow-color);
 }
 
 #certifications-list i {
     text-align: center;
     font-size: 5rem;
-    color: #0ef;
+    color: var(--shadow-color);
     animation: slideBottom 1s ease forwards;
 }
 
 #certifications-list div h2 {
-    color: aliceblue;
+    color: var(--text-color);
     text-align: center;
     font-size: 30px;
     font-weight: 500px;
@@ -568,14 +575,14 @@ section {
 
 #certifications-list div p {
     font-size: 1.3em;
-    color: aliceblue;
+    color: var(--text-color);
 }
 
 #certifications-list div a {
     width: 50%;
     display: inline-block;
     text-decoration: none;
-    color: #000000;
+    color: var(--body-color);
     font-size: 12px;
     text-align: center;
     margin-top: 30px;
@@ -598,7 +605,7 @@ section {
 }
 
 #contact span {
-    color: #0ef;
+    color: var(--shadow-color);
 }
 
 #form {
@@ -611,8 +618,8 @@ section {
 
 #form input {
     outline: none;
-    color: #081B29;
-    background-color: aliceblue;
+    color: var(--body-color);
+    background-color: var(--text-color);
     padding: 5px;
     border-radius: 10px;
     width: 50%;
@@ -621,14 +628,14 @@ section {
 #form textarea {
     outline: none;
     padding: 5px;
-    background-color: aliceblue;
+    background-color: var(--text-color);
     border-radius: 10px;
     width: 50%;
 }
 
 ::placeholder {
     font-weight: 150;
-    color: #081B29;
+    color: var(--body-color);
 }
 
 #form .captcha-container {
@@ -640,27 +647,28 @@ section {
     padding: 12px 28px;
     font-size: 16px;
     font-weight: 550;
-    background-color: #0ef;
-    color: #081B29;
-    box-shadow: 0 0 5px #0ef,
-        0 0 25px #0ef;
+    background-color: var(--shadow-color);
+    color: var(--body-color);
+    box-shadow: 0 0 5px var(--shadow-color),
+        0 0 25px var(--shadow-color);
     animation: slideTop 1s ease forwards;
 }
 
 #form #submit:hover {
     cursor: pointer;
-    box-shadow: 0 0 25px cyan, 0 0 25px cyan;
+    box-shadow: 0 0 25px var(--shadow-color), 0 0 25px var(--shadow-color);
 }
 
 /* Footer */
 #footer {
+    color: var(--body-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     padding: 1rem 4%;
     width: 100%;
-    background: rgb(7, 85, 91);
+    background: var(--shadow-color);
     font-weight: 300;
 }
 
@@ -669,16 +677,17 @@ section {
 }
 
 #go-to-top i {
-    color: #000;
-    background-color: #0ef;
+    color: var(--body-color);
+    background-color: var(--shadow-color);
     font-size: 20px;
     padding: 10px;
+    border: 2px solid var(--body-color);
     border-radius: 0.5rem;
 }
 
 #go-to-top i:hover {
     cursor: pointer;
-    box-shadow: 0 0 25px cyan, 0 0 25px cyan;
+    box-shadow: 0 0 25px var(--shadow-color), 0 0 25px var(--shadow-color);
 }
 
 /* KeyFrames */
