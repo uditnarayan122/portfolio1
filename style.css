@@ -3222,15 +3222,21 @@ section {
         font-size: 15px;
     }
 }
-/* Changing Light and Dark Mode */
-
+/* General styles */
+:root {
+    --background-color: #ffffff;
+    --text-color: #000000;
+}
 
 body.dark-mode {
     --background-color: #121212;
     --text-color: #ffffff;
 }
 
-
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
 
 .theme-toggle-btn {
     background: none;

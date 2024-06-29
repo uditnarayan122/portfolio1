@@ -40,12 +40,16 @@ menuicon.onclick = () => {
 
 // Light/Dark mode toggle
 const themeToggleBtn = document.getElementById('theme-toggle');
-const currentTheme = localStorage.getItem('theme');
+let currentTheme = localStorage.getItem('theme');
 
-if (currentTheme) {
-    document.body.classList.add(currentTheme);
-    themeToggleBtn.textContent = currentTheme === 'dark-mode' ? '🌙' : '🌞';
+// Default to dark mode if no theme is set
+if (!currentTheme) {
+    currentTheme = 'dark-mode';
+    localStorage.setItem('theme', currentTheme);
 }
+
+document.body.classList.add(currentTheme);
+themeToggleBtn.textContent = currentTheme === 'dark-mode' ? '🌙' : '🌞';
 
 themeToggleBtn.addEventListener('click', () => {
     document.body.classList.toggle('dark-mode');
