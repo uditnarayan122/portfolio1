@@ -14,7 +14,7 @@
 
 body {
     color: var(--text-color);
-    background: var(--body-color);
+    background: var(--background-color);
 }
 
 section {
@@ -3220,5 +3220,53 @@ section {
 
     #go-to-top i {
         font-size: 15px;
+    }
+}
+/* Changing Light and Dark Mode */
+
+
+body.dark-mode {
+    --background-color: #121212;
+    --text-color: #ffffff;
+}
+
+
+
+.theme-toggle-btn {
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#menu-container {
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+    #menu-container {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+    }
+
+    .theme-toggle-btn {
+        order: 1;
+        margin-left: 0;
+    }
+
+    #menu-icon {
+        order: 2;
+    }
+
+    nav#navbar {
+        flex-direction: column;
+        display: none;
+    }
+
+    nav#navbar.active {
+        display: flex;
     }
 }
