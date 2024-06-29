@@ -6,15 +6,22 @@
     scroll-behavior: smooth;
 }
 
+
 :root {
     --body-color: black;
-    --shadow-color: cyan;
+    --shadow-color: rgba(0, 183, 255);
+    --text-color: aliceblue;
+    --background-color: aliceblue;
+}
+
+body.dark-mode {
+    --background-color: black;
     --text-color: aliceblue;
 }
 
 body {
+    background-color: var(--background-color);
     color: var(--text-color);
-    background: var(--background-color);
 }
 
 section {
@@ -30,11 +37,11 @@ section {
     left: 0;
     width: 100%;
     padding: 20px 10px;
-    background: var(--body-color);
+    background: var(--background-color);
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    box-shadow: 10px 10px 10px var(--body-color);
+    box-shadow: 10px 10px 10px var(--background-color);
 }
 
 #logo {
@@ -2154,7 +2161,7 @@ section {
         left: 0;
         width: 100%;
         padding: 0.5rem 3%;
-        background: #1f242d;
+        background: var(--background-color);
         border-top: .1rem solid rgba(0, 0, 0, .2);
         box-shadow: .5rem 0 1rem rgba(0, 0, 0, .2);
         display: none;
@@ -3223,14 +3230,17 @@ section {
     }
 }
 /* General styles */
+/* General styles */
 :root {
-    --background-color: #ffffff;
-    --text-color: #000000;
+    --background-color: aliceblue;
+    --text-color: black;
+    /* --shadow-color: rgba(0, 0, 0, 0.2); */
 }
 
 body.dark-mode {
-    --background-color: #121212;
-    --text-color: #ffffff;
+    --background-color: black;
+    --text-color: aliceblue;
+    --shadow-color: cyan;
 }
 
 body {
